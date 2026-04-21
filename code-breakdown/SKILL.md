@@ -111,13 +111,13 @@ For **Expert**: High-level execution path only, noting any non-obvious control f
 ### Artifact for this phase:
 Generate **one of the following** based on what fits the code structure best:
 
-- **Mermaid flowchart** — best for linear flows, conditionals, loops
-- **React/HTML component** — best for complex multi-function flows, class interactions, async patterns, or anything that benefits from an interactive visual
+- **Mermaid flowchart** — default choice for almost all code, best for linear flows, conditionals, loops
+- **React/HTML component** — only when the code is web-development related (HTML, CSS, JS, React, frontend frameworks) or when the output is something visual/interactive that genuinely needs to be displayed
 
 Criteria for choosing:
-- Simple scripts / single functions → Mermaid
-- Multiple functions calling each other, classes, async/await, API flows → React/HTML component
-- When in doubt → React/HTML (richer, more readable)
+- Everything (scripts, functions, classes, APIs, loops, async, algorithms) → Mermaid
+- Web development / frontend / UI-related code → React/HTML component
+- When in doubt → Mermaid
 
 ---
 
@@ -128,7 +128,7 @@ After both walkthroughs, generate a **visual summary artifact** that shows:
 - Data flowing between them
 - Execution sequence (numbered)
 
-Again choose between Mermaid or React/HTML based on complexity (same criteria as Phase 3).
+Choose Mermaid by default. Only use React/HTML if the code being explained is web-development related or produces a visual output that benefits from live rendering.
 
 ---
 
