@@ -1,8 +1,8 @@
-# 🔍 code-breakdown — A Claude Skill for Understanding Code
+# 🔍 code-breakdown: A Claude Skill for Understanding Code
 
-A structured, personalized Claude skill that explains any code — simple or complex — in a way that actually makes sense to *you*.
+A structured, personalized Claude skill that explains any code simple or complex in a way that actually makes sense to *you*.
 
-Whether you're a complete beginner trying to understand your first Python script, a student debugging an assignment, or an experienced developer doing a quick walkthrough — this skill adapts to your level and walks you through the code step by step.
+Whether you're a complete beginner trying to understand your first Python script, a student debugging an assignment, or an experienced developer doing a quick walkthrough this skill adapts to your level and walks you through the code step by step.
 
 ---
 
@@ -12,14 +12,14 @@ Most code explanations either go too fast or feel too shallow. This skill fixes 
 
 When you trigger it, Claude will:
 
-- **Ask you a few quick questions** — your experience level, your goal, and how you'd like to be guided
+- **Ask you a few quick questions** - your experience level, your goal, and how you'd like to be guided
 - **Summarize the code** in plain English before diving in
-- **Explain block by block** from top to bottom — what each section does, what it takes in, what it produces
-- **Trace the execution flow** from bottom up — what actually runs first, what gets called next, what data moves where
-- **Generate visual diagrams** — flowcharts or interactive components to make the flow click visually
+- **Explain block by block** from top to bottom - what each section does, what it takes in, what it produces
+- **Trace the execution flow** from bottom up - what actually runs first, what gets called next, what data moves where
+- **Generate visual diagrams** like flowcharts or interactive components to make the flow click visually
 - **Test your understanding** at the end with a mini quiz and a "What if?" code challenge
 
-The depth of explanation automatically adjusts based on your level — beginners get every line explained with syntax breakdowns and design reasoning, intermediates get a fast but thorough walkthrough, and experts get a dense summary focused on logic and flow.
+The depth of explanation automatically adjusts based on your level, beginners get every line explained with syntax breakdowns and design reasoning, intermediates get a fast but thorough walkthrough, and experts get a dense summary focused on logic and flow.
 
 ---
 
@@ -29,7 +29,7 @@ The depth of explanation automatically adjusts based on your level — beginners
 2. Open [Claude.ai](https://claude.ai)
 3. Go to **Settings → Skills**
 4. Click **Upload Skill** and select the downloaded `.skill` file
-5. That's it — the skill is now active in your Claude
+5. That's it, the skill is now active in your Claude
 
 ---
 
@@ -41,7 +41,7 @@ Once installed, just type the command below in any Claude conversation:
 /code-breakdown
 ```
 
-Then paste your code (or paste the code first, then type the command). Claude will take it from there — starting with a few quick questions before the explanation begins.
+Then paste your code (or paste the code first, then type the command). Claude will take it from there - starting with a few quick questions before the explanation begins.
 
 **You don't need to describe the code or explain what language it's in.** Claude detects everything automatically.
 
@@ -49,7 +49,7 @@ Then paste your code (or paste the code first, then type the command). Claude wi
 
 ## 💡 Examples
 
-**Example 1 — Beginner asking about a Python function:**
+**Example 1: Beginner asking about a Python function:**
 ```
 /code-breakdown
 
@@ -61,7 +61,7 @@ def calculate_discount(price, percent):
 
 ---
 
-**Example 2 — Intermediate user with a Flask API route:**
+**Example 2: Intermediate user with a Flask API route:**
 ```
 /code-breakdown
 
@@ -76,7 +76,7 @@ def get_user(id):
 
 ---
 
-**Example 3 — Student with a confusing recursive function:**
+**Example 3: Student with a confusing recursive function:**
 ```
 /code-breakdown
 
@@ -91,8 +91,8 @@ def fibonacci(n):
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE) — free to use, share, and modify. Just keep the credit. 🙌
+This project is licensed under the [MIT License](LICENSE) - free to use, share, and modify. Just keep the credit. 🙌
 
 ---
 
-Made by [Het Desai](https://www.linkedin.com/in/hetdesai03/) • [Portfolio](https://het-desai-s1gn0jf.gamma.site/)
+Made by [Het Desai](https://www.linkedin.com/in/hetdesai03/)
