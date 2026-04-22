@@ -45,4 +45,4 @@ All skills in this repo are licensed under the [MIT License](./code-breakdown/LI
 
 ---
 
-Made by [Het Desai](https://www.linkedin.com/in/hetdesai03/) • [Portfolio](https://het-desai-s1gn0jf.gamma.site/)
+Made by [Het Desai](https://www.linkedin.com/in/hetdesai03/) 
